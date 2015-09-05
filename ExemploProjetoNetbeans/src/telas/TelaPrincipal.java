@@ -88,8 +88,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // acao para abrir tela de Cadastrar Produto
-        TelaCadastrarProduto tela = new TelaCadastrarProduto();
-        tela.setVisible(true);
+        System.out.println("chamar aqui acao para abrir tela");
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
