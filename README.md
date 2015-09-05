@@ -2,28 +2,28 @@
 Série "Tutorial Rápido - como fazer"  do YouTube com os códigos fontes do projeto Java usando NetBeans
 
 
-##ROADMAP (histórico de mudanças)
+*ROADMAP (histórico de mudanças)*
 
--------------------------------------------------------------------------------
-#1 - Projeto Front end com Netbeans e Java 
--------------------------------------------------------------------------------
+--
+*#1 - Projeto Front end com Netbeans e Java*
+--
 - criação do projeto
 - criação da tela inicial (TelaPrincipal.java)
 - configuração do método main()
 - configuração das ações (através de eventos)
 
 
--------------------------------------------------------------------------------
-#2 - Projeto Front end com Netbeans e Java 
--------------------------------------------------------------------------------
+--
+*#2 - Projeto Front end com Netbeans e Java*
+--
 - entender o que é um CRUD
 - criar uma tela de cadastrar produto (operação de CREATE)
 - definir uma entidade para representar os dados (Produto)
 - realizar 
 
--------------------------------------------------------------------------------
-# pendências para próximos vídeos
--------------------------------------------------------------------------------
+--
+*# pendências para próximos vídeos*
+--
 
 - precisamos nos preocupar com o tratamento dos dados (campos de entrada dados)
 - criação de código autoincremental
