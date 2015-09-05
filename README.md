@@ -19,7 +19,8 @@ Série "Tutorial Rápido - como fazer"  do YouTube com os códigos fontes do pro
 - entender o que é um CRUD
 - criar uma tela de cadastrar produto (operação de CREATE)
 - definir uma entidade para representar os dados (Produto)
-- realizar 
+- realizar os testes para entender como exibir o objeto na saída de dados
+- sobreescrever o método toString()
 
 --
 *# pendências para próximos vídeos*
