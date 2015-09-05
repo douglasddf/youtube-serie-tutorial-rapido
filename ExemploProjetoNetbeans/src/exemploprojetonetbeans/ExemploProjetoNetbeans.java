@@ -5,8 +5,6 @@
  */
 package exemploprojetonetbeans;
 
-import telas.TelaPrincipal;
-
 /**
  *
  * @author Douglas
@@ -19,9 +17,7 @@ public class ExemploProjetoNetbeans {
     public static void main(String[] args) {
         
         
-        // vamos chamar a tela principal
-        TelaPrincipal telaPrincipal = new TelaPrincipal();
-        telaPrincipal.setVisible(true);
+        System.out.println("#1 - Projeto Front end com Netbeans e Java");
         
     }
     
