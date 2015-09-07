@@ -29,3 +29,4 @@ Série "Tutorial Rápido - como fazer"  do YouTube com os códigos fontes do pro
 - precisamos nos preocupar com o tratamento dos dados (campos de entrada dados)
 - criação de código autoincremental
 - salvar os produtos criados na memória (em uma lista) 
+- mostrar como mudar o icone da janela do aplicativo
