@@ -7,6 +7,7 @@ package telas;
 
 import dados.Produto;
 import javax.swing.JOptionPane;
+import exemploprojetonetbeans.ExemploProjetoNetbeans;
 /**
  *
  * @author Douglas
@@ -65,12 +66,6 @@ public class TelaCadastrarProduto extends javax.swing.JFrame {
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
-            }
-        });
-
-        campoPrecoVenda.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                campoPrecoVendaActionPerformed(evt);
             }
         });
 
@@ -153,11 +148,12 @@ public class TelaCadastrarProduto extends javax.swing.JFrame {
         
         // o codigo será criado depois
         JOptionPane.showMessageDialog(this, p); // exibir produto 
+        
+        this.dispose();
+        
+        // permite cadastrar o objeto na memória
+        ExemploProjetoNetbeans.cadastrarProduto(p);
     }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void campoPrecoVendaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_campoPrecoVendaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_campoPrecoVendaActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // acao para cancelar a tela
