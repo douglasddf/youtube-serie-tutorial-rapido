@@ -18,9 +18,14 @@ ROADMAP (histórico de mudanças)
 - realizar 
 
 -------------------------------------------------------------------------------
+#3 - Projeto Front end com Netbeans e Java 
+-------------------------------------------------------------------------------
+- criação de código autoincremental (para entidade Produto);
+- salvar os produtos criados na memória (em uma lista)
+
+
+-------------------------------------------------------------------------------
 # pendências para próximos vídeos
 -------------------------------------------------------------------------------
 
 - precisamos nos preocupar com o tratamento dos dados (campos de entrada dados)
-- criação de código autoincremental
-- salvar os produtos criados na memória (em uma lista) 

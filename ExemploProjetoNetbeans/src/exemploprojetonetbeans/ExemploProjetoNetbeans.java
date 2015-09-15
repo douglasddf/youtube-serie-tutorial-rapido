@@ -5,6 +5,8 @@
  */
 package exemploprojetonetbeans;
 
+import dados.Produto;
+import java.util.ArrayList;
 import telas.TelaPrincipal;
 
 /**
@@ -13,6 +15,8 @@ import telas.TelaPrincipal;
  */
 public class ExemploProjetoNetbeans {
 
+    private static ArrayList<Produto> listaProdutos = new ArrayList<>();
+    
     /**
      * @param args the command line arguments
      */
@@ -23,6 +27,13 @@ public class ExemploProjetoNetbeans {
         TelaPrincipal telaPrincipal = new TelaPrincipal();
         telaPrincipal.setVisible(true);
         
+    }
+    
+    // permite cadastrar um produto
+    public static void cadastrarProduto(Produto p) {
+        listaProdutos.add(p);
+        
+        System.out.println("Produto cadastrado com Sucesso!\n\n"+p);
     }
     
 }

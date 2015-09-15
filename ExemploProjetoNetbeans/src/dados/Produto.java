@@ -13,17 +13,22 @@ public class Produto {
     
     // dados do objeto (ATRIBUTOS) // aplicando ENCAPSULAMENTO (dados privados)
     
-    int codigo;
+    private int codigo;
     private String nome;
     private String descricao;
     private double precoCusto;
     private double precoVenda;
     
+    // inicializamos o contador inicial
+    private static int posicaoAutoIncremental = 1;
+    
     // vamos criar um construtor
 
     public Produto(String nome, String descricao, double precoCusto, double precoVenda) {
         
-        // TODO o codigo será gerado depois automaticamente
+        this.codigo = posicaoAutoIncremental;
+        // atualizamos o contador para o próximo objeto receber o novo valor.
+        posicaoAutoIncremental++;
         
         this.nome = nome;
         this.descricao = descricao;
@@ -41,7 +46,8 @@ public class Produto {
     public String toString() {
         
         String relatorio = "";
-        relatorio += "nome: "+nome;
+        relatorio += "código: "+codigo;
+        relatorio += "\nnome: "+nome;
         relatorio += "\ndesc: "+descricao;
         relatorio += "\nPreço Custo: "+precoCusto;
         relatorio += "\nPreço Venda: "+precoVenda;
